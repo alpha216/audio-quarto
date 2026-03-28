@@ -1,0 +1,74 @@
+/*
+  Slides typography + colors aligned with Quarto’s default Reveal theme
+  (same family as Auburn course slides, e.g.
+  https://webhome.auburn.edu/~mip0024/teaching/math2660/slides/01-welcome-slides.html)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap");
+
+.reveal-viewport {
+  --r-background-color: #fff;
+  --r-main-color: #222;
+  /* Quarto default theme: one size in “slide pixels”; Reveal scales the whole deck to the window */
+  --r-main-font-size: 40px;
+  --r-heading-color: #0b2341;
+  --r-link-color: #e86100;
+  --r-link-color-hover: rgb(255, 123, 28);
+  --r-link-color-dark: rgb(155, 65, 0);
+  --r-heading-font: "Atkinson Hyperlegible", system-ui, sans-serif;
+  --r-main-font: "Atkinson Hyperlegible", system-ui, sans-serif;
+}
+
+/* Do not set body font-size with vmin/clamp here — it fights Reveal’s transform scale and looks smaller than Auburn-style decks */
+
+.reveal,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal p,
+.reveal li,
+.reveal td,
+.reveal th {
+  font-family: var(--r-main-font) !important;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  font-weight: 600 !important;
+  color: var(--r-heading-color) !important;
+}
+
+.reveal .slides {
+  text-align: left !important;
+}
+
+.reveal #title-slide .subtitle,
+section.quarto-title-block .subtitle {
+  color: var(--r-link-color) !important;
+  font-weight: 700 !important;
+  text-align: left !important;
+}
+
+.reveal #title-slide h1,
+.reveal .quarto-title-block h1 {
+  text-align: left !important;
+}
+
+.reveal #title-slide .quarto-title-author,
+.reveal #title-slide .quarto-title-affiliation,
+.reveal #title-slide .date {
+  text-align: left !important;
+}
+
+.reveal a:not(.quarto-title-author a) {
+  color: var(--r-link-color) !important;
+}
+
+.reveal a:not(.quarto-title-author a):hover {
+  color: var(--r-link-color-hover) !important;
+}
+
+.reveal .slide-number {
+  color: rgb(110, 110, 110) !important;
+  background-color: #fff !important;
+}

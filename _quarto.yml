@@ -1,0 +1,22 @@
+project:
+  type: website
+  # output-dir: docs
+  resources:
+    - CNAME
+    - .nojekyll
+
+website:
+  title: "Alphacar_"
+  google-analytics: "G-YXVMSHZ5VF"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+    right: []
+
+format:
+  html:
+    theme: litera
+    toc: true
+
+# Optional: add new decks to navbar; each .qmd sets its own format in YAML.
