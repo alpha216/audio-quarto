@@ -13,3 +13,6 @@ _site/
 .env
 .env.*
 !.env.example
+
+/.quarto/
+**/*.quarto_ipynb
