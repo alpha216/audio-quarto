@@ -371,18 +371,18 @@
     "text": "The Midas DP48 is a dual 48-channel personal monitor mixer that allows you to take full control of your own stage mix. Whether you are on Mix A or Mix B, this guide will help you dial in the perfect sound."
   },
   {
-    "objectID": "dp48.html#the-concept",
-    "href": "dp48.html#the-concept",
-    "title": "Midas DP48: Personal Monitoring Guide",
-    "section": "The Concept",
-    "text": "The Concept\nTo understand how the DP48 works, imagine you are in a Discord call with 12 friends.\n\nIndividual Control: If one friend is too loud or too quiet, you can adjust their volume specifically without affecting anyone else.\nMaster Control: If the entire call is too loud, you can turn down your main volume (the “Master”) to protect your ears."
-  },
-  {
     "objectID": "dp48.html#plug-your-earphone",
     "href": "dp48.html#plug-your-earphone",
     "title": "Midas DP48: Personal Monitoring Guide",
     "section": "Plug your earphone",
     "text": "Plug your earphone\nIf you are on the left of the DP48 or Playing Keyboard, You will Use Mix A.  If you are on the right or Playing Piano, you will use Mix B. Plug your earphone into the correct side to start adjusting your mix.\n\n\n\nDP48 Back\n\n\n\nIf you are using Mix A, plug your earphone into the Circle labeled 2 headphone jack.\nIf you are using Mix B, plug into the Circle labeled 1 headphone jack."
+  },
+  {
+    "objectID": "dp48.html#the-concept",
+    "href": "dp48.html#the-concept",
+    "title": "Midas DP48: Personal Monitoring Guide",
+    "section": "The Concept",
+    "text": "The Concept\nTo understand how the DP48 works, imagine you are in a Discord call with 12 friends.\n\nIndividual Control: If one friend is too loud or too quiet, you can adjust their volume specifically without affecting anyone else.\nMaster Control: If the entire call is too loud, you can turn down your main volume (the “Master”) to protect your ears."
   },
   {
     "objectID": "dp48.html#hardware-layout",
@@ -403,7 +403,7 @@
     "href": "dp48.html#how-to-adjust-your-mix",
     "title": "Midas DP48: Personal Monitoring Guide",
     "section": "How to Adjust Your Mix",
-    "text": "How to Adjust Your Mix\n\n1. Controlling Your Own Instrument\nNo need to select a button first! Simply turn the My Group knob (2) to hear more or less of yourself.\n\n\n2. Controlling Others\nTo adjust a different sound (e.g., the Leader Mic or Drums): 1. Select: Press the numbered button on the bottom corresponding to that instrument. 2. Adjust: Turn the Group Level knob (3) on your side (Left for Mix A, Right for Mix B). 3. Deselect: Press the numbered button again when finished."
+    "text": "How to Adjust Your Mix\n\n1. Controlling Your Own Instrument\nNo need to select a button first!  Simply turn the My Group knob (2) to hear more or less of yourself.\n\n\n2. Controlling Others\nTo adjust a different sound (e.g., the Leader Mic or Drums):\n\nSelect: Press the numbered button on the bottom corresponding to that instrument.\nAdjust: Turn the Group Level knob (3) on your side (Left for Mix A, Right for Mix B).\nDeselect: Press the numbered button again when finished."
   },
   {
     "objectID": "dp48.html#practical-examples",
@@ -417,13 +417,13 @@
     "href": "index.html",
     "title": "Audio Notes",
     "section": "",
-    "text": "Topic\nNotes (read / print)\nSlides (present)\n\n\n\n\nPA signal flow\npa-system.html\npa-system-slides.html\n\n\nMidas DP48\ndp48.html\nN/A\n\n\n\nThe notes page includes an Other formats link to the slideshow (built-in when you use multi-format)."
+    "text": "Topic\nNotes (read / print)\nSlides (present)\n\n\n\n\nPA signal flow\npa-system.html\npa-system-slides.html\n\n\nMidas DP48\ndp48.html\nN/A"
   },
   {
     "objectID": "index.html#presentations",
     "href": "index.html#presentations",
     "title": "Audio Notes",
     "section": "",
-    "text": "Topic\nNotes (read / print)\nSlides (present)\n\n\n\n\nPA signal flow\npa-system.html\npa-system-slides.html\n\n\nMidas DP48\ndp48.html\nN/A\n\n\n\nThe notes page includes an Other formats link to the slideshow (built-in when you use multi-format)."
+    "text": "Topic\nNotes (read / print)\nSlides (present)\n\n\n\n\nPA signal flow\npa-system.html\npa-system-slides.html\n\n\nMidas DP48\ndp48.html\nN/A"
   }
 ]
