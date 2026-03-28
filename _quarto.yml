@@ -16,7 +16,7 @@ website:
         menu:
           - text: Source Code
             href: https://github.com/alpha216/audio-quarto
-    conetent:
+    conetents:
       - text: Home
         href: index.qmd
 
