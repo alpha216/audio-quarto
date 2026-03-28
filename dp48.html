@@ -422,7 +422,7 @@ gtag('config', 'G-YXVMSHZ5VF', { 'anonymize_ip': true});
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/alpha216\.github\.io\/audio-quarto\/");
+        var filterRegex = new RegExp("https:\/\/audio\.alphacar\.dev");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
