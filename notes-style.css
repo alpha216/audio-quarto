@@ -1,0 +1,71 @@
+/* Reveal: flat slides (no inset “card”), code blocks like Quarto default */
+
+/* Tables: default Reveal uses the same ~45px base as body copy — dense tables look huge */
+.reveal .slides section table {
+  font-size: 38px;
+  line-height: 1.35;
+  margin-top: 0.35em;
+}
+
+.reveal .slides section table th,
+.reveal .slides section table td {
+  padding: 0.2em 0.4em;
+  vertical-align: top;
+}
+
+.reveal .slides section.compact-table table {
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.reveal .slides section.compact-table table th,
+.reveal .slides section.compact-table table td {
+  padding: 0.16em 0.32em;
+}
+
+.reveal .slides section:not(.stack) {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.reveal .slides section pre,
+.reveal .slides section code {
+  font-family: ui-monospace, "Cascadia Code", "SF Mono", Menlo, monospace !important;
+}
+
+.reveal div.sourceCode {
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  background-color: #fefefe;
+}
+
+.reveal pre {
+  width: 100%;
+  box-shadow: none;
+  background-color: #fefefe;
+  border: none;
+  margin: 0;
+  font-size: 0.6em;
+  line-height: 1.3;
+}
+
+.reveal pre code {
+  background-color: #fff;
+  color: #222;
+  font-size: inherit;
+  padding: 6px 9px;
+}
+
+.reveal :not(pre) > code {
+  color: #e86100;
+  font-size: 0.875em;
+  background-color: transparent;
+}
+
+.reveal aside.notes,
+.reveal .speaker-notes {
+  font-family: "Atkinson Hyperlegible", system-ui, sans-serif !important;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
