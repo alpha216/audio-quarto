@@ -8,15 +8,19 @@ project:
 website:
   title: "Alphacar_"
   google-analytics: "G-YXVMSHZ5VF"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-    right: []
+  sidebar:
+    style: docked
+    search: true
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href: https://github.com/alpha216/audio-quarto
+    conetent:
+      - text: Home
+        href: index.qmd
 
 format:
   html:
     theme: litera
     toc: true
-
-# Optional: add new decks to navbar; each .qmd sets its own format in YAML.

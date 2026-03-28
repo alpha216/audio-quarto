@@ -7,16 +7,6 @@ format:
 ## Introduction
 The **Midas DP48** is a dual 48-channel personal monitor mixer that allows you to take full control of your own stage mix. Whether you are on Mix A or Mix B, this guide will help you dial in the perfect sound.
 
----
-
-## The Concept
-To understand how the DP48 works, imagine you are in a **Discord call with 12 friends**.
-
-* **Individual Control:** If one friend is too loud or too quiet, you can adjust their volume specifically without affecting anyone else.
-* **Master Control:** If the entire call is too loud, you can turn down your main volume (the "Master") to protect your ears.
-
----
-
 ## Plug your earphone
 
 If you are on the left of the DP48 or Playing Keyboard, You will Use **Mix A**. <br/>
@@ -27,8 +17,11 @@ If you are on the right or Playing Piano, you will use **Mix B**. Plug your earp
 - If you are using Mix A, plug your earphone into the **Circle labeled 2** headphone jack.
 - If you are using Mix B, plug into the **Circle labeled 1** headphone jack.
 
+## The Concept
+To understand how the DP48 works, imagine you are in a **Discord call with 12 friends**.
 
----
+* **Individual Control:** If one friend is too loud or too quiet, you can adjust their volume specifically without affecting anyone else.
+* **Master Control:** If the entire call is too loud, you can turn down your main volume (the "Master") to protect your ears.
 
 ## Hardware Layout
 Refer to the diagram below to identify the primary controls.
@@ -45,8 +38,6 @@ Refer to the diagram below to identify the primary controls.
 ### Quick Tip for Mix A vs Mix B
 The DP48 supports two independent mixes. If you are assigned to **Mix A**, always use the **left-side** knobs. If you are **Mix B**, use the **right-side** knobs.
 :::
-
----
 
 ## Group Assignments
 Use the buttons (1-12) at the bottom of the unit to select which sound you want to adjust.
@@ -68,20 +59,18 @@ Use the buttons (1-12) at the bottom of the unit to select which sound you want 
 | 11 | Singers |
 | 12 | *Unassigned (N/A)* |
 
----
-
 ## How to Adjust Your Mix
 
 ### 1. Controlling Your Own Instrument
-No need to select a button first! Simply turn the **My Group** knob (**2**) to hear more or less of yourself.
+No need to select a button first! <br/>
+Simply turn the **My Group** knob (**2**) to hear more or less of yourself.
 
 ### 2. Controlling Others
 To adjust a different sound (e.g., the Leader Mic or Drums):
+
 1. **Select:** Press the numbered button on the bottom corresponding to that instrument.
 2. **Adjust:** Turn the **Group Level** knob (**3**) on your side (Left for Mix A, Right for Mix B).
-3. **Deselect:** Press the numbered button again when finished.
-
----
+3. **Deselect:** Press the numbered button again when finished. 
 
 ## Practical Examples
 

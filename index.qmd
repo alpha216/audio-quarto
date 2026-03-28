@@ -1,5 +1,9 @@
 ---
 title: "Audio Notes"
+
+format:
+    html:
+        toc: false
 ---
 
 ## Presentations
@@ -9,4 +13,3 @@ title: "Audio Notes"
 | PA signal flow | [pa-system.html](pa-system.html) | [pa-system-slides.html](pa-system-slides.html) |
 | Midas DP48 | [dp48.html](dp48.html) | N/A |
 
-The notes page includes an **Other formats** link to the slideshow (built-in when you use [multi-format](https://quarto.org/docs/output-formats/html-multi-format.html)).
