@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Solideo Tech Team">
+
+<title>Sound Team – Alphacar_</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YXVMSHZ5VF"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YXVMSHZ5VF', { 'anonymize_ip': true});
+</script>
+
+
+<link rel="stylesheet" href="article.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Alphacar_</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">1</span> Overview</a></li>
+  <li><a href="#understanding-signal-flow" id="toc-understanding-signal-flow" class="nav-link" data-scroll-target="#understanding-signal-flow"><span class="header-section-number">2</span> 1. Understanding Signal Flow</a></li>
+  <li><a href="#microphone" id="toc-microphone" class="nav-link" data-scroll-target="#microphone"><span class="header-section-number">3</span> 2. Microphone</a></li>
+  <li><a href="#dynamic-vs-condenser" id="toc-dynamic-vs-condenser" class="nav-link" data-scroll-target="#dynamic-vs-condenser"><span class="header-section-number">4</span> Dynamic vs condenser</a></li>
+  <li><a href="#when-do-we-use-which" id="toc-when-do-we-use-which" class="nav-link" data-scroll-target="#when-do-we-use-which"><span class="header-section-number">5</span> When do we use which?</a></li>
+  <li><a href="#polar-patterns-brief-introduction" id="toc-polar-patterns-brief-introduction" class="nav-link" data-scroll-target="#polar-patterns-brief-introduction"><span class="header-section-number">6</span> Polar patterns — brief introduction</a></li>
+  <li><a href="#polar-patterns-examples" id="toc-polar-patterns-examples" class="nav-link" data-scroll-target="#polar-patterns-examples"><span class="header-section-number">7</span> Polar patterns — examples</a></li>
+  <li><a href="#feedback-howling" id="toc-feedback-howling" class="nav-link" data-scroll-target="#feedback-howling"><span class="header-section-number">8</span> Feedback (howling)</a></li>
+  <li><a href="#feedback-what-to-fix-first" id="toc-feedback-what-to-fix-first" class="nav-link" data-scroll-target="#feedback-what-to-fix-first"><span class="header-section-number">9</span> Feedback — what to fix first</a></li>
+  <li><a href="#cables-and-connectors" id="toc-cables-and-connectors" class="nav-link" data-scroll-target="#cables-and-connectors"><span class="header-section-number">10</span> 3. Cables and connectors</a></li>
+  <li><a href="#common-connectors" id="toc-common-connectors" class="nav-link" data-scroll-target="#common-connectors"><span class="header-section-number">11</span> Common connectors</a></li>
+  <li><a href="#cable-management" id="toc-cable-management" class="nav-link" data-scroll-target="#cable-management"><span class="header-section-number">12</span> Cable management</a></li>
+  <li><a href="#mixer" id="toc-mixer" class="nav-link" data-scroll-target="#mixer"><span class="header-section-number">13</span> 4. Mixer</a></li>
+  <li><a href="#foh-and-mixer-placement" id="toc-foh-and-mixer-placement" class="nav-link" data-scroll-target="#foh-and-mixer-placement"><span class="header-section-number">14</span> FOH and mixer placement</a></li>
+  <li><a href="#channel-strip-basics" id="toc-channel-strip-basics" class="nav-link" data-scroll-target="#channel-strip-basics"><span class="header-section-number">15</span> Channel strip basics</a></li>
+  <li><a href="#monitor-mix-aux-send" id="toc-monitor-mix-aux-send" class="nav-link" data-scroll-target="#monitor-mix-aux-send"><span class="header-section-number">16</span> Monitor mix (Aux Send)</a></li>
+  <li><a href="#phantom-power-48-v" id="toc-phantom-power-48-v" class="nav-link" data-scroll-target="#phantom-power-48-v"><span class="header-section-number">17</span> Phantom power (+48 V)</a></li>
+  <li><a href="#speakers-and-amplifiers" id="toc-speakers-and-amplifiers" class="nav-link" data-scroll-target="#speakers-and-amplifiers"><span class="header-section-number">18</span> 5. Speakers and amplifiers</a></li>
+  <li><a href="#speaker-placement" id="toc-speaker-placement" class="nav-link" data-scroll-target="#speaker-placement"><span class="header-section-number">19</span> Speaker placement</a></li>
+  <li><a href="#speaker-placement---example" id="toc-speaker-placement---example" class="nav-link" data-scroll-target="#speaker-placement---example"><span class="header-section-number">20</span> Speaker placement - example</a></li>
+  <li><a href="#try-a-real-setup" id="toc-try-a-real-setup" class="nav-link" data-scroll-target="#try-a-real-setup"><span class="header-section-number">21</span> 6. Try a real setup</a></li>
+  <li><a href="#mic-blx88-receiver" id="toc-mic-blx88-receiver" class="nav-link" data-scroll-target="#mic-blx88-receiver"><span class="header-section-number">22</span> Mic — BLX88 receiver</a></li>
+  <li><a href="#mixer-x32-rear-panel" id="toc-mixer-x32-rear-panel" class="nav-link" data-scroll-target="#mixer-x32-rear-panel"><span class="header-section-number">23</span> Mixer — X32 rear panel</a></li>
+  <li><a href="#speaker-dzr15-rear-panel" id="toc-speaker-dzr15-rear-panel" class="nav-link" data-scroll-target="#speaker-dzr15-rear-panel"><span class="header-section-number">24</span> Speaker — DZR15 rear panel</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">25</span> Summary</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="pa-system-slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Sound Team</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Solideo Tech Team </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="overview" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="overview"><span class="header-section-number">1</span> Overview</h2>
+<ul>
+<li>Understand the basic <strong>signal flow</strong></li>
+<li>Learn what each hardware device does</li>
+<li>Learn how to place and connect the system</li>
+<li>Avoid common beginner mistakes</li>
+</ul>
+</section>
+<section id="understanding-signal-flow" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="understanding-signal-flow"><span class="header-section-number">2</span> 1. Understanding Signal Flow</h2>
+<p>Every section of the system has an <strong>input</strong> and an <strong>output</strong>.</p>
+<p><strong>Basic path</strong></p>
+<p><code>Microphone -&gt; Mixer -&gt; Speaker</code></p>
+<p><strong>Why this matters</strong></p>
+<ul>
+<li>Troubleshooting gets easier</li>
+<li>You can check one stage at a time</li>
+<li>You understand what each device is responsible for</li>
+</ul>
+</section>
+<section id="microphone" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="microphone"><span class="header-section-number">3</span> 2. Microphone</h2>
+<p>Microphones are the <strong>first step</strong> in the chain.</p>
+<ul>
+<li>They turn sound in the air into an electrical signal</li>
+<li>Choice of mic affects tone, sensitivity, and feedback risk</li>
+<li>In live sound, <strong>dynamic microphones</strong> are the most common general-purpose choice</li>
+<li><strong>Condenser microphones</strong> are often used for instruments or for capturing a wider sound such as choir, orchestra, or room ambience</li>
+</ul>
+</section>
+<section id="dynamic-vs-condenser" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="dynamic-vs-condenser"><span class="header-section-number">4</span> Dynamic vs condenser</h2>
+<ul>
+<li><strong>Dynamic microphones</strong> are usually tougher and more common for live vocals</li>
+<li><strong>Condenser microphones</strong> are more sensitive and are often used when more detail is needed</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/dynamic_condenser.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:88.0%" alt="Comparison image showing a dynamic microphone and a condenser microphone"></p>
+</figure>
+</div>
+</section>
+<section id="when-do-we-use-which" class="level2 compact-table" data-number="5">
+<h2 class="compact-table anchored" data-number="5" data-anchor-id="when-do-we-use-which"><span class="header-section-number">5</span> When do we use which?</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Situation</th>
+<th>Better first choice</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Live vocal on stage</strong></td>
+<td><strong>Dynamic</strong></td>
+<td>Rugged, reliable, and easier to control in a loud room</td>
+</tr>
+<tr class="even">
+<td><strong>Speech or general stage use</strong></td>
+<td><strong>Dynamic</strong></td>
+<td>Works well for most everyday PA situations</td>
+</tr>
+<tr class="odd">
+<td><strong>Instrument miking</strong></td>
+<td><strong>Condenser</strong></td>
+<td>Captures more detail and high-frequency information</td>
+</tr>
+<tr class="even">
+<td><strong>Choir, orchestra, or room pickup</strong></td>
+<td><strong>Condenser</strong></td>
+<td>Better for capturing a wider and more detailed sound</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="polar-patterns-brief-introduction" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="polar-patterns-brief-introduction"><span class="header-section-number">6</span> Polar patterns — brief introduction</h2>
+<ul>
+<li><strong>Cardioid</strong>: hears mostly from the front</li>
+<li><strong>Omnidirectional</strong>: hears from all directions</li>
+</ul>
+<p><strong>Why we care</strong></p>
+<ul>
+<li>Pattern affects bleed and feedback</li>
+<li>Cardioid is the most common live vocal choice</li>
+</ul>
+</section>
+<section id="polar-patterns-examples" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="polar-patterns-examples"><span class="header-section-number">7</span> Polar patterns — examples</h2>
+<div class="columns">
+<div class="column" style="width:54%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/polar-patterns-omni-cardioid.png" class="img-fluid figure-img" style="width:100.0%" alt="Two polar diagrams showing omnidirectional and cardioid microphone pickup patterns"></p>
+<figcaption>Omnidirectional vs cardioid polar patterns</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:46%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/polar-mic.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:74.0%" alt="Supercardioid microphone polar pattern diagram"></p>
+</figure>
+</div>
+<ul>
+<li><strong>Omnidirectional</strong> picks up sound from almost every direction</li>
+<li><strong>Cardioid</strong> focuses on the front and rejects more from the rear</li>
+<li><strong>Supercardioid</strong> is even tighter in front, but has a small rear pickup</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="feedback-howling" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="feedback-howling"><span class="header-section-number">8</span> Feedback (howling)</h2>
+<ul>
+<li>The speaker sends sound into the room</li>
+<li>The microphone picks that speaker sound up again</li>
+<li>The signal goes back through the mixer and speaker</li>
+<li>The loop repeats and builds into a howl</li>
+</ul>
+<p><strong>Common causes</strong></p>
+<ul>
+<li>Mic is too close to a speaker or monitor</li>
+<li>Gain is too high</li>
+<li>Too many open mics</li>
+</ul>
+</section>
+<section id="feedback-what-to-fix-first" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="feedback-what-to-fix-first"><span class="header-section-number">9</span> Feedback — what to fix first</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/feedback-loop.png" class="img-fluid figure-img" style="width:62.0%" alt="Feedback loop diagram showing sound returning from the speaker to the microphone"></p>
+<figcaption>Feedback loop: mic to mixer to amplifier to speaker, with the path closing back to the microphone</figcaption>
+</figure>
+</div>
+<ul>
+<li>Change <strong>placement</strong> first</li>
+<li>Lower <strong>gain</strong> if needed</li>
+<li>Ring out problem frequencies only after placement is reasonable</li>
+</ul>
+</section>
+<section id="cables-and-connectors" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="cables-and-connectors"><span class="header-section-number">10</span> 3. Cables and connectors</h2>
+<div class="columns">
+<div class="column" style="width:54%;">
+<p>Connectors matter because they tell us <strong>what kind of signal</strong> we are carrying and <strong>what it should plug into</strong>.</p>
+<ul>
+<li>The connector often tells you what kind of job that cable is doing</li>
+<li>Learning the common connector shapes saves time during setup and troubleshooting</li>
+</ul>
+</div><div class="column" style="width:46%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/connectors-reference.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Reference image showing XLR, TRS, and TS connectors"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="common-connectors" class="level2" data-number="11">
+<h2 data-number="11" class="anchored" data-anchor-id="common-connectors"><span class="header-section-number">11</span> Common connectors</h2>
+<ul>
+<li><strong>XLR</strong>: most common for microphones and pro audio</li>
+<li><strong>TS</strong>: common for instruments and some unbalanced signals</li>
+<li><strong>EtherCON</strong>: rugged locking network connector used for digital audio / control</li>
+</ul>
+<p><strong>What to remember</strong> - XLR is the one you will use constantly</p>
+</section>
+<section id="cable-management" class="level2" data-number="12">
+<h2 data-number="12" class="anchored" data-anchor-id="cable-management"><span class="header-section-number">12</span> Cable management</h2>
+<ul>
+<li>Learn <strong>over-under</strong> wrapping</li>
+<li>Do not twist cables into tight loops</li>
+<li>Label important cables</li>
+<li>Keep signal cables tidy so faults are easier to find</li>
+</ul>
+<p><strong>Quick demo</strong></p>
+<p><a href="https://www.youtube.com/shorts/ZW_Bh-6E7Go">Over-under cable wrap short</a></p>
+</section>
+<section id="mixer" class="level2" data-number="13">
+<h2 data-number="13" class="anchored" data-anchor-id="mixer"><span class="header-section-number">13</span> 4. Mixer</h2>
+<p>The mixer is the <strong>control center</strong> of the system.</p>
+<ul>
+<li>Combines signals from microphones and other sources</li>
+<li>Adjusts level and tone</li>
+<li>Routes signals to mains, monitors, recording, and other destinations</li>
+</ul>
+<p><strong>Our example mixer:</strong> <strong>Behringer X32</strong></p>
+</section>
+<section id="foh-and-mixer-placement" class="level2" data-number="14">
+<h2 data-number="14" class="anchored" data-anchor-id="foh-and-mixer-placement"><span class="header-section-number">14</span> FOH and mixer placement</h2>
+<p><strong>FOH</strong> means <strong>Front of House</strong>.</p>
+<ul>
+<li>This is the position where the engineer listens from the audience area</li>
+<li>FOH is usually the best place to judge what the audience is hearing</li>
+<li>In smaller setups, the mixer may also be at the side of the stage</li>
+</ul>
+</section>
+<section id="channel-strip-basics" class="level2" data-number="15">
+<h2 data-number="15" class="anchored" data-anchor-id="channel-strip-basics"><span class="header-section-number">15</span> Channel strip basics</h2>
+<p>On a typical input channel:</p>
+<ol type="1">
+<li><strong>Gain</strong>: sets input sensitivity</li>
+<li><strong>EQ</strong>: shapes the tone</li>
+<li><strong>Fader</strong>: sets how much of the channel goes to the main mix</li>
+<li><strong>Aux send</strong>: sends part of the signal somewhere else</li>
+</ol>
+<p><strong>Important idea:</strong> gain and fader are not the same thing.</p>
+</section>
+<section id="monitor-mix-aux-send" class="level2" data-number="16">
+<h2 data-number="16" class="anchored" data-anchor-id="monitor-mix-aux-send"><span class="header-section-number">16</span> Monitor mix (Aux Send)</h2>
+<ul>
+<li>A monitor mix lets performers hear what they need on stage</li>
+<li>This is often sent from an <strong>aux</strong></li>
+<li>The monitor mix does <strong>not</strong> have to match the main house mix</li>
+</ul>
+<p><strong>Example</strong></p>
+<ul>
+<li>Vocalist may want more vocal</li>
+<li>Drummer may want more click or keys</li>
+</ul>
+<p><strong>Reference video:</strong> <a href="https://www.youtube.com/watch?v=q-Cr6WFmSDE&amp;list=RDq-Cr6WFmSDE&amp;start_radio=1">Monitor mix example</a></p>
+</section>
+<section id="phantom-power-48-v" class="level2" data-number="17">
+<h2 data-number="17" class="anchored" data-anchor-id="phantom-power-48-v"><span class="header-section-number">17</span> Phantom power (+48 V)</h2>
+<ul>
+<li>Many condenser mics need <strong>+48 V phantom power</strong></li>
+<li>Many dynamic mics do <strong>not</strong> need it</li>
+<li>Turn it on only for channels that require it</li>
+</ul>
+<p><strong>Example:</strong> a condenser like an <strong>AT4040</strong> needs phantom power.</p>
+</section>
+<section id="speakers-and-amplifiers" class="level2" data-number="18">
+<h2 data-number="18" class="anchored" data-anchor-id="speakers-and-amplifiers"><span class="header-section-number">18</span> 5. Speakers and amplifiers</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><strong>Main speakers</strong> cover the audience</li>
+<li><strong>Monitor speakers</strong> help performers hear on stage</li>
+<li><strong>Subwoofers</strong> handle low frequencies</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/dzr15.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Example of system"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="speaker-placement" class="level2" data-number="19">
+<h2 data-number="19" class="anchored" data-anchor-id="speaker-placement"><span class="header-section-number">19</span> Speaker placement</h2>
+<ul>
+<li>Place the speakers so they project directly toward the <strong>audience</strong></li>
+<li>Keep the speakers <strong>in front of the microphones</strong> to help prevent feedback</li>
+<li>In our setup, we usually place the <strong>main speakers</strong> on the left and right sides of the stage</li>
+<li>Angle them slightly inward, about <strong>15 to 30 degrees</strong>, so they cover the audience more evenly</li>
+</ul>
+<p><strong>Simple goal:</strong> clear coverage for the audience without causing feedback.</p>
+</section>
+<section id="speaker-placement---example" class="level2" data-number="20">
+<h2 data-number="20" class="anchored" data-anchor-id="speaker-placement---example"><span class="header-section-number">20</span> Speaker placement - example</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/speaker_placement.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt=""></p>
+</figure>
+</div>
+</section>
+<section id="try-a-real-setup" class="level2" data-number="21">
+<h2 data-number="21" class="anchored" data-anchor-id="try-a-real-setup"><span class="header-section-number">21</span> 6. Try a real setup</h2>
+<p><strong>Goal:</strong> connect a <strong>Shure BLX88 receiver</strong> to the <strong>X32</strong>, then send the mixer output to a <strong>Yamaha DZR15</strong>.</p>
+<p><strong>Signal path</strong></p>
+<p><code>BLX88 -&gt; X32 -&gt; DZR15</code></p>
+</section>
+<section id="mic-blx88-receiver" class="level2" data-number="22">
+<h2 data-number="22" class="anchored" data-anchor-id="mic-blx88-receiver"><span class="header-section-number">22</span> Mic — BLX88 receiver</h2>
+<p><img src="assets/setup/blx88-rear-diagram.png" class="img-fluid" style="width:100.0%" alt="Rear panel of a Shure BLX88 receiver showing XLR outputs and quarter-inch outputs"></p>
+<ul>
+<li>Use the <strong>XLR OUT</strong> on the BLX88 rear panel</li>
+<li>Connect that to an <strong>XLR input</strong> on the X32 mixer</li>
+</ul>
+</section>
+<section id="mixer-x32-rear-panel" class="level2" data-number="23">
+<h2 data-number="23" class="anchored" data-anchor-id="mixer-x32-rear-panel"><span class="header-section-number">23</span> Mixer — X32 rear panel</h2>
+<p><img src="assets/setup/x32-rear-diagram.png" class="img-fluid" style="width:100.0%" alt="Rear panel of a Behringer X32 mixer showing XLR inputs and outputs"></p>
+<ul>
+<li>The <strong>BLX88 output</strong> goes into an <strong>X32 XLR input</strong></li>
+<li>Use an <strong>XLR cable</strong> from the <strong>X32 output</strong> to the speaker input</li>
+<li>If you are using two main speakers, send <strong>Main L</strong> to the left speaker and <strong>Main R</strong> to the right speaker</li>
+</ul>
+</section>
+<section id="speaker-dzr15-rear-panel" class="level2" data-number="24">
+<h2 data-number="24" class="anchored" data-anchor-id="speaker-dzr15-rear-panel"><span class="header-section-number">24</span> Speaker — DZR15 rear panel</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><img src="assets/setup/dzr15-rear.jpg" class="img-fluid" style="width:100.0%" alt="Rear panel of a Yamaha DZR15 powered speaker"></p>
+</div><div class="column" style="width:52%;">
+<ul>
+<li>On the back of the <strong>DZR15</strong>, look for <strong>INPUT 1</strong> or another line input you are using</li>
+<li>Connect the <strong>X32 output</strong> to that <strong>input</strong></li>
+<li>Because the <strong>DZR15 is a powered speaker</strong>, it does <strong>not</strong> need a separate external amp between the mixer and the speaker</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="summary" class="level2" data-number="25">
+<h2 data-number="25" class="anchored" data-anchor-id="summary"><span class="header-section-number">25</span> Summary</h2>
+<ol type="1">
+<li>Learn the chain: <strong>microphone -&gt; mixer -&gt; speaker</strong></li>
+<li>Know the job of each device</li>
+<li>Learn the difference between <strong>dynamic</strong> and <strong>condenser</strong></li>
+<li>Learn the common connectors: <strong>XLR, TS, EtherCON</strong></li>
+<li>Understand the basic mixer controls: <strong>gain, EQ, fader, aux</strong></li>
+<li>Place speakers for coverage, not chaos</li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/alpha216\.github\.io\/audio-quarto\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

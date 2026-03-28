@@ -1,0 +1,429 @@
+[
+  {
+    "objectID": "pa-system.html",
+    "href": "pa-system.html",
+    "title": "Sound Team",
+    "section": "",
+    "text": "Understand the basic signal flow\nLearn what each hardware device does\nLearn how to place and connect the system\nAvoid common beginner mistakes"
+  },
+  {
+    "objectID": "pa-system.html#overview",
+    "href": "pa-system.html#overview",
+    "title": "Sound Team",
+    "section": "",
+    "text": "Understand the basic signal flow\nLearn what each hardware device does\nLearn how to place and connect the system\nAvoid common beginner mistakes"
+  },
+  {
+    "objectID": "pa-system.html#understanding-signal-flow",
+    "href": "pa-system.html#understanding-signal-flow",
+    "title": "Sound Team",
+    "section": "2 1. Understanding Signal Flow",
+    "text": "2 1. Understanding Signal Flow\nEvery section of the system has an input and an output.\nBasic path\nMicrophone -&gt; Mixer -&gt; Speaker\nWhy this matters\n\nTroubleshooting gets easier\nYou can check one stage at a time\nYou understand what each device is responsible for"
+  },
+  {
+    "objectID": "pa-system.html#microphone",
+    "href": "pa-system.html#microphone",
+    "title": "Sound Team",
+    "section": "3 2. Microphone",
+    "text": "3 2. Microphone\nMicrophones are the first step in the chain.\n\nThey turn sound in the air into an electrical signal\nChoice of mic affects tone, sensitivity, and feedback risk\nIn live sound, dynamic microphones are the most common general-purpose choice\nCondenser microphones are often used for instruments or for capturing a wider sound such as choir, orchestra, or room ambience"
+  },
+  {
+    "objectID": "pa-system.html#dynamic-vs-condenser",
+    "href": "pa-system.html#dynamic-vs-condenser",
+    "title": "Sound Team",
+    "section": "4 Dynamic vs condenser",
+    "text": "4 Dynamic vs condenser\n\nDynamic microphones are usually tougher and more common for live vocals\nCondenser microphones are more sensitive and are often used when more detail is needed"
+  },
+  {
+    "objectID": "pa-system.html#when-do-we-use-which",
+    "href": "pa-system.html#when-do-we-use-which",
+    "title": "Sound Team",
+    "section": "5 When do we use which?",
+    "text": "5 When do we use which?\n\n\n\n\n\n\n\n\nSituation\nBetter first choice\nWhy\n\n\n\n\nLive vocal on stage\nDynamic\nRugged, reliable, and easier to control in a loud room\n\n\nSpeech or general stage use\nDynamic\nWorks well for most everyday PA situations\n\n\nInstrument miking\nCondenser\nCaptures more detail and high-frequency information\n\n\nChoir, orchestra, or room pickup\nCondenser\nBetter for capturing a wider and more detailed sound"
+  },
+  {
+    "objectID": "pa-system.html#polar-patterns-brief-introduction",
+    "href": "pa-system.html#polar-patterns-brief-introduction",
+    "title": "Sound Team",
+    "section": "6 Polar patterns — brief introduction",
+    "text": "6 Polar patterns — brief introduction\n\nCardioid: hears mostly from the front\nOmnidirectional: hears from all directions\n\nWhy we care\n\nPattern affects bleed and feedback\nCardioid is the most common live vocal choice"
+  },
+  {
+    "objectID": "pa-system.html#polar-patterns-examples",
+    "href": "pa-system.html#polar-patterns-examples",
+    "title": "Sound Team",
+    "section": "7 Polar patterns — examples",
+    "text": "7 Polar patterns — examples\n\n\n\n\n\nOmnidirectional vs cardioid polar patterns\n\n\n\n\n\n\n\n\n\nOmnidirectional picks up sound from almost every direction\nCardioid focuses on the front and rejects more from the rear\nSupercardioid is even tighter in front, but has a small rear pickup"
+  },
+  {
+    "objectID": "pa-system.html#feedback-howling",
+    "href": "pa-system.html#feedback-howling",
+    "title": "Sound Team",
+    "section": "8 Feedback (howling)",
+    "text": "8 Feedback (howling)\n\nThe speaker sends sound into the room\nThe microphone picks that speaker sound up again\nThe signal goes back through the mixer and speaker\nThe loop repeats and builds into a howl\n\nCommon causes\n\nMic is too close to a speaker or monitor\nGain is too high\nToo many open mics"
+  },
+  {
+    "objectID": "pa-system.html#feedback-what-to-fix-first",
+    "href": "pa-system.html#feedback-what-to-fix-first",
+    "title": "Sound Team",
+    "section": "9 Feedback — what to fix first",
+    "text": "9 Feedback — what to fix first\n\n\n\nFeedback loop: mic to mixer to amplifier to speaker, with the path closing back to the microphone\n\n\n\nChange placement first\nLower gain if needed\nRing out problem frequencies only after placement is reasonable"
+  },
+  {
+    "objectID": "pa-system.html#cables-and-connectors",
+    "href": "pa-system.html#cables-and-connectors",
+    "title": "Sound Team",
+    "section": "10 3. Cables and connectors",
+    "text": "10 3. Cables and connectors\n\n\nConnectors matter because they tell us what kind of signal we are carrying and what it should plug into.\n\nThe connector often tells you what kind of job that cable is doing\nLearning the common connector shapes saves time during setup and troubleshooting"
+  },
+  {
+    "objectID": "pa-system.html#common-connectors",
+    "href": "pa-system.html#common-connectors",
+    "title": "Sound Team",
+    "section": "11 Common connectors",
+    "text": "11 Common connectors\n\nXLR: most common for microphones and pro audio\nTS: common for instruments and some unbalanced signals\nEtherCON: rugged locking network connector used for digital audio / control\n\nWhat to remember - XLR is the one you will use constantly"
+  },
+  {
+    "objectID": "pa-system.html#cable-management",
+    "href": "pa-system.html#cable-management",
+    "title": "Sound Team",
+    "section": "12 Cable management",
+    "text": "12 Cable management\n\nLearn over-under wrapping\nDo not twist cables into tight loops\nLabel important cables\nKeep signal cables tidy so faults are easier to find\n\nQuick demo\nOver-under cable wrap short"
+  },
+  {
+    "objectID": "pa-system.html#mixer",
+    "href": "pa-system.html#mixer",
+    "title": "Sound Team",
+    "section": "13 4. Mixer",
+    "text": "13 4. Mixer\nThe mixer is the control center of the system.\n\nCombines signals from microphones and other sources\nAdjusts level and tone\nRoutes signals to mains, monitors, recording, and other destinations\n\nOur example mixer: Behringer X32"
+  },
+  {
+    "objectID": "pa-system.html#foh-and-mixer-placement",
+    "href": "pa-system.html#foh-and-mixer-placement",
+    "title": "Sound Team",
+    "section": "14 FOH and mixer placement",
+    "text": "14 FOH and mixer placement\nFOH means Front of House.\n\nThis is the position where the engineer listens from the audience area\nFOH is usually the best place to judge what the audience is hearing\nIn smaller setups, the mixer may also be at the side of the stage"
+  },
+  {
+    "objectID": "pa-system.html#channel-strip-basics",
+    "href": "pa-system.html#channel-strip-basics",
+    "title": "Sound Team",
+    "section": "15 Channel strip basics",
+    "text": "15 Channel strip basics\nOn a typical input channel:\n\nGain: sets input sensitivity\nEQ: shapes the tone\nFader: sets how much of the channel goes to the main mix\nAux send: sends part of the signal somewhere else\n\nImportant idea: gain and fader are not the same thing."
+  },
+  {
+    "objectID": "pa-system.html#monitor-mix-aux-send",
+    "href": "pa-system.html#monitor-mix-aux-send",
+    "title": "Sound Team",
+    "section": "16 Monitor mix (Aux Send)",
+    "text": "16 Monitor mix (Aux Send)\n\nA monitor mix lets performers hear what they need on stage\nThis is often sent from an aux\nThe monitor mix does not have to match the main house mix\n\nExample\n\nVocalist may want more vocal\nDrummer may want more click or keys\n\nReference video: Monitor mix example"
+  },
+  {
+    "objectID": "pa-system.html#phantom-power-48-v",
+    "href": "pa-system.html#phantom-power-48-v",
+    "title": "Sound Team",
+    "section": "17 Phantom power (+48 V)",
+    "text": "17 Phantom power (+48 V)\n\nMany condenser mics need +48 V phantom power\nMany dynamic mics do not need it\nTurn it on only for channels that require it\n\nExample: a condenser like an AT4040 needs phantom power."
+  },
+  {
+    "objectID": "pa-system.html#speakers-and-amplifiers",
+    "href": "pa-system.html#speakers-and-amplifiers",
+    "title": "Sound Team",
+    "section": "18 5. Speakers and amplifiers",
+    "text": "18 5. Speakers and amplifiers\n\n\n\nMain speakers cover the audience\nMonitor speakers help performers hear on stage\nSubwoofers handle low frequencies"
+  },
+  {
+    "objectID": "pa-system.html#speaker-placement",
+    "href": "pa-system.html#speaker-placement",
+    "title": "Sound Team",
+    "section": "19 Speaker placement",
+    "text": "19 Speaker placement\n\nPlace the speakers so they project directly toward the audience\nKeep the speakers in front of the microphones to help prevent feedback\nIn our setup, we usually place the main speakers on the left and right sides of the stage\nAngle them slightly inward, about 15 to 30 degrees, so they cover the audience more evenly\n\nSimple goal: clear coverage for the audience without causing feedback."
+  },
+  {
+    "objectID": "pa-system.html#speaker-placement---example",
+    "href": "pa-system.html#speaker-placement---example",
+    "title": "Sound Team",
+    "section": "20 Speaker placement - example",
+    "text": "20 Speaker placement - example"
+  },
+  {
+    "objectID": "pa-system.html#try-a-real-setup",
+    "href": "pa-system.html#try-a-real-setup",
+    "title": "Sound Team",
+    "section": "21 6. Try a real setup",
+    "text": "21 6. Try a real setup\nGoal: connect a Shure BLX88 receiver to the X32, then send the mixer output to a Yamaha DZR15.\nSignal path\nBLX88 -&gt; X32 -&gt; DZR15"
+  },
+  {
+    "objectID": "pa-system.html#mic-blx88-receiver",
+    "href": "pa-system.html#mic-blx88-receiver",
+    "title": "Sound Team",
+    "section": "22 Mic — BLX88 receiver",
+    "text": "22 Mic — BLX88 receiver\n\n\nUse the XLR OUT on the BLX88 rear panel\nConnect that to an XLR input on the X32 mixer"
+  },
+  {
+    "objectID": "pa-system.html#mixer-x32-rear-panel",
+    "href": "pa-system.html#mixer-x32-rear-panel",
+    "title": "Sound Team",
+    "section": "23 Mixer — X32 rear panel",
+    "text": "23 Mixer — X32 rear panel\n\n\nThe BLX88 output goes into an X32 XLR input\nUse an XLR cable from the X32 output to the speaker input\nIf you are using two main speakers, send Main L to the left speaker and Main R to the right speaker"
+  },
+  {
+    "objectID": "pa-system.html#speaker-dzr15-rear-panel",
+    "href": "pa-system.html#speaker-dzr15-rear-panel",
+    "title": "Sound Team",
+    "section": "24 Speaker — DZR15 rear panel",
+    "text": "24 Speaker — DZR15 rear panel\n\n\n\n\n\nOn the back of the DZR15, look for INPUT 1 or another line input you are using\nConnect the X32 output to that input\nBecause the DZR15 is a powered speaker, it does not need a separate external amp between the mixer and the speaker"
+  },
+  {
+    "objectID": "pa-system.html#summary",
+    "href": "pa-system.html#summary",
+    "title": "Sound Team",
+    "section": "25 Summary",
+    "text": "25 Summary\n\nLearn the chain: microphone -&gt; mixer -&gt; speaker\nKnow the job of each device\nLearn the difference between dynamic and condenser\nLearn the common connectors: XLR, TS, EtherCON\nUnderstand the basic mixer controls: gain, EQ, fader, aux\nPlace speakers for coverage, not chaos"
+  },
+  {
+    "objectID": "pa-system-slides.html#overview",
+    "href": "pa-system-slides.html#overview",
+    "title": "Sound Team",
+    "section": "Overview",
+    "text": "Overview\n\nUnderstand the basic signal flow\nLearn what each hardware device does\nLearn how to place and connect the system\nAvoid common beginner mistakes"
+  },
+  {
+    "objectID": "pa-system-slides.html#understanding-signal-flow",
+    "href": "pa-system-slides.html#understanding-signal-flow",
+    "title": "Sound Team",
+    "section": "1. Understanding Signal Flow",
+    "text": "1. Understanding Signal Flow\nEvery section of the system has an input and an output.\nBasic path\nMicrophone -&gt; Mixer -&gt; Speaker\nWhy this matters\n\nTroubleshooting gets easier\nYou can check one stage at a time\nYou understand what each device is responsible for"
+  },
+  {
+    "objectID": "pa-system-slides.html#microphone",
+    "href": "pa-system-slides.html#microphone",
+    "title": "Sound Team",
+    "section": "2. Microphone",
+    "text": "2. Microphone\nMicrophones are the first step in the chain.\n\nThey turn sound in the air into an electrical signal\nChoice of mic affects tone, sensitivity, and feedback risk\nIn live sound, dynamic microphones are the most common general-purpose choice\nCondenser microphones are often used for instruments or for capturing a wider sound such as choir, orchestra, or room ambience"
+  },
+  {
+    "objectID": "pa-system-slides.html#dynamic-vs-condenser",
+    "href": "pa-system-slides.html#dynamic-vs-condenser",
+    "title": "Sound Team",
+    "section": "Dynamic vs condenser",
+    "text": "Dynamic vs condenser\n\nDynamic microphones are usually tougher and more common for live vocals\nCondenser microphones are more sensitive and are often used when more detail is needed"
+  },
+  {
+    "objectID": "pa-system-slides.html#when-do-we-use-which",
+    "href": "pa-system-slides.html#when-do-we-use-which",
+    "title": "Sound Team",
+    "section": "When do we use which?",
+    "text": "When do we use which?\n\n\n\n\n\n\n\n\nSituation\nBetter first choice\nWhy\n\n\n\n\nLive vocal on stage\nDynamic\nRugged, reliable, and easier to control in a loud room\n\n\nSpeech or general stage use\nDynamic\nWorks well for most everyday PA situations\n\n\nInstrument miking\nCondenser\nCaptures more detail and high-frequency information\n\n\nChoir, orchestra, or room pickup\nCondenser\nBetter for capturing a wider and more detailed sound"
+  },
+  {
+    "objectID": "pa-system-slides.html#polar-patterns-brief-introduction",
+    "href": "pa-system-slides.html#polar-patterns-brief-introduction",
+    "title": "Sound Team",
+    "section": "Polar patterns — brief introduction",
+    "text": "Polar patterns — brief introduction\n\nCardioid: hears mostly from the front\nOmnidirectional: hears from all directions\n\nWhy we care\n\nPattern affects bleed and feedback\nCardioid is the most common live vocal choice"
+  },
+  {
+    "objectID": "pa-system-slides.html#polar-patterns-examples",
+    "href": "pa-system-slides.html#polar-patterns-examples",
+    "title": "Sound Team",
+    "section": "Polar patterns — examples",
+    "text": "Polar patterns — examples\n\n\n\n\n\nOmnidirectional vs cardioid polar patterns\n\n\n\n\n\n\n\n\n\nOmnidirectional picks up sound from almost every direction\nCardioid focuses on the front and rejects more from the rear\nSupercardioid is even tighter in front, but has a small rear pickup"
+  },
+  {
+    "objectID": "pa-system-slides.html#feedback-howling",
+    "href": "pa-system-slides.html#feedback-howling",
+    "title": "Sound Team",
+    "section": "Feedback (howling)",
+    "text": "Feedback (howling)\n\nThe speaker sends sound into the room\nThe microphone picks that speaker sound up again\nThe signal goes back through the mixer and speaker\nThe loop repeats and builds into a howl\n\nCommon causes\n\nMic is too close to a speaker or monitor\nGain is too high\nToo many open mics"
+  },
+  {
+    "objectID": "pa-system-slides.html#feedback-what-to-fix-first",
+    "href": "pa-system-slides.html#feedback-what-to-fix-first",
+    "title": "Sound Team",
+    "section": "Feedback — what to fix first",
+    "text": "Feedback — what to fix first\n\nFeedback loop: mic to mixer to amplifier to speaker, with the path closing back to the microphone\nChange placement first\nLower gain if needed\nRing out problem frequencies only after placement is reasonable"
+  },
+  {
+    "objectID": "pa-system-slides.html#cables-and-connectors",
+    "href": "pa-system-slides.html#cables-and-connectors",
+    "title": "Sound Team",
+    "section": "3. Cables and connectors",
+    "text": "3. Cables and connectors\n\n\nConnectors matter because they tell us what kind of signal we are carrying and what it should plug into.\n\nThe connector often tells you what kind of job that cable is doing\nLearning the common connector shapes saves time during setup and troubleshooting"
+  },
+  {
+    "objectID": "pa-system-slides.html#common-connectors",
+    "href": "pa-system-slides.html#common-connectors",
+    "title": "Sound Team",
+    "section": "Common connectors",
+    "text": "Common connectors\n\nXLR: most common for microphones and pro audio\nTS: common for instruments and some unbalanced signals\nEtherCON: rugged locking network connector used for digital audio / control\n\nWhat to remember - XLR is the one you will use constantly"
+  },
+  {
+    "objectID": "pa-system-slides.html#cable-management",
+    "href": "pa-system-slides.html#cable-management",
+    "title": "Sound Team",
+    "section": "Cable management",
+    "text": "Cable management\n\nLearn over-under wrapping\nDo not twist cables into tight loops\nLabel important cables\nKeep signal cables tidy so faults are easier to find\n\nQuick demo\nOver-under cable wrap short"
+  },
+  {
+    "objectID": "pa-system-slides.html#mixer",
+    "href": "pa-system-slides.html#mixer",
+    "title": "Sound Team",
+    "section": "4. Mixer",
+    "text": "4. Mixer\nThe mixer is the control center of the system.\n\nCombines signals from microphones and other sources\nAdjusts level and tone\nRoutes signals to mains, monitors, recording, and other destinations\n\nOur example mixer: Behringer X32"
+  },
+  {
+    "objectID": "pa-system-slides.html#foh-and-mixer-placement",
+    "href": "pa-system-slides.html#foh-and-mixer-placement",
+    "title": "Sound Team",
+    "section": "FOH and mixer placement",
+    "text": "FOH and mixer placement\nFOH means Front of House.\n\nThis is the position where the engineer listens from the audience area\nFOH is usually the best place to judge what the audience is hearing\nIn smaller setups, the mixer may also be at the side of the stage"
+  },
+  {
+    "objectID": "pa-system-slides.html#channel-strip-basics",
+    "href": "pa-system-slides.html#channel-strip-basics",
+    "title": "Sound Team",
+    "section": "Channel strip basics",
+    "text": "Channel strip basics\nOn a typical input channel:\n\nGain: sets input sensitivity\nEQ: shapes the tone\nFader: sets how much of the channel goes to the main mix\nAux send: sends part of the signal somewhere else\n\nImportant idea: gain and fader are not the same thing."
+  },
+  {
+    "objectID": "pa-system-slides.html#monitor-mix-aux-send",
+    "href": "pa-system-slides.html#monitor-mix-aux-send",
+    "title": "Sound Team",
+    "section": "Monitor mix (Aux Send)",
+    "text": "Monitor mix (Aux Send)\n\nA monitor mix lets performers hear what they need on stage\nThis is often sent from an aux\nThe monitor mix does not have to match the main house mix\n\nExample\n\nVocalist may want more vocal\nDrummer may want more click or keys\n\nReference video: Monitor mix example"
+  },
+  {
+    "objectID": "pa-system-slides.html#phantom-power-48-v",
+    "href": "pa-system-slides.html#phantom-power-48-v",
+    "title": "Sound Team",
+    "section": "Phantom power (+48 V)",
+    "text": "Phantom power (+48 V)\n\nMany condenser mics need +48 V phantom power\nMany dynamic mics do not need it\nTurn it on only for channels that require it\n\nExample: a condenser like an AT4040 needs phantom power."
+  },
+  {
+    "objectID": "pa-system-slides.html#speakers-and-amplifiers",
+    "href": "pa-system-slides.html#speakers-and-amplifiers",
+    "title": "Sound Team",
+    "section": "5. Speakers and amplifiers",
+    "text": "5. Speakers and amplifiers\n\n\n\nMain speakers cover the audience\nMonitor speakers help performers hear on stage\nSubwoofers handle low frequencies"
+  },
+  {
+    "objectID": "pa-system-slides.html#speaker-placement",
+    "href": "pa-system-slides.html#speaker-placement",
+    "title": "Sound Team",
+    "section": "Speaker placement",
+    "text": "Speaker placement\n\nPlace the speakers so they project directly toward the audience\nKeep the speakers in front of the microphones to help prevent feedback\nIn our setup, we usually place the main speakers on the left and right sides of the stage\nAngle them slightly inward, about 15 to 30 degrees, so they cover the audience more evenly\n\nSimple goal: clear coverage for the audience without causing feedback."
+  },
+  {
+    "objectID": "pa-system-slides.html#speaker-placement---example",
+    "href": "pa-system-slides.html#speaker-placement---example",
+    "title": "Sound Team",
+    "section": "Speaker placement - example",
+    "text": "Speaker placement - example"
+  },
+  {
+    "objectID": "pa-system-slides.html#try-a-real-setup",
+    "href": "pa-system-slides.html#try-a-real-setup",
+    "title": "Sound Team",
+    "section": "6. Try a real setup",
+    "text": "6. Try a real setup\nGoal: connect a Shure BLX88 receiver to the X32, then send the mixer output to a Yamaha DZR15.\nSignal path\nBLX88 -&gt; X32 -&gt; DZR15"
+  },
+  {
+    "objectID": "pa-system-slides.html#mic-blx88-receiver",
+    "href": "pa-system-slides.html#mic-blx88-receiver",
+    "title": "Sound Team",
+    "section": "Mic — BLX88 receiver",
+    "text": "Mic — BLX88 receiver\n\n\nUse the XLR OUT on the BLX88 rear panel\nConnect that to an XLR input on the X32 mixer"
+  },
+  {
+    "objectID": "pa-system-slides.html#mixer-x32-rear-panel",
+    "href": "pa-system-slides.html#mixer-x32-rear-panel",
+    "title": "Sound Team",
+    "section": "Mixer — X32 rear panel",
+    "text": "Mixer — X32 rear panel\n\n\nThe BLX88 output goes into an X32 XLR input\nUse an XLR cable from the X32 output to the speaker input\nIf you are using two main speakers, send Main L to the left speaker and Main R to the right speaker"
+  },
+  {
+    "objectID": "pa-system-slides.html#speaker-dzr15-rear-panel",
+    "href": "pa-system-slides.html#speaker-dzr15-rear-panel",
+    "title": "Sound Team",
+    "section": "Speaker — DZR15 rear panel",
+    "text": "Speaker — DZR15 rear panel\n\n\n\n\n\nOn the back of the DZR15, look for INPUT 1 or another line input you are using\nConnect the X32 output to that input\nBecause the DZR15 is a powered speaker, it does not need a separate external amp between the mixer and the speaker"
+  },
+  {
+    "objectID": "pa-system-slides.html#summary",
+    "href": "pa-system-slides.html#summary",
+    "title": "Sound Team",
+    "section": "Summary",
+    "text": "Summary\n\nLearn the chain: microphone -&gt; mixer -&gt; speaker\nKnow the job of each device\nLearn the difference between dynamic and condenser\nLearn the common connectors: XLR, TS, EtherCON\nUnderstand the basic mixer controls: gain, EQ, fader, aux\nPlace speakers for coverage, not chaos"
+  },
+  {
+    "objectID": "dp48.html",
+    "href": "dp48.html",
+    "title": "Midas DP48: Personal Monitoring Guide",
+    "section": "",
+    "text": "The Midas DP48 is a dual 48-channel personal monitor mixer that allows you to take full control of your own stage mix. Whether you are on Mix A or Mix B, this guide will help you dial in the perfect sound."
+  },
+  {
+    "objectID": "dp48.html#introduction",
+    "href": "dp48.html#introduction",
+    "title": "Midas DP48: Personal Monitoring Guide",
+    "section": "",
+    "text": "The Midas DP48 is a dual 48-channel personal monitor mixer that allows you to take full control of your own stage mix. Whether you are on Mix A or Mix B, this guide will help you dial in the perfect sound."
+  },
+  {
+    "objectID": "dp48.html#the-concept",
+    "href": "dp48.html#the-concept",
+    "title": "Midas DP48: Personal Monitoring Guide",
+    "section": "The Concept",
+    "text": "The Concept\nTo understand how the DP48 works, imagine you are in a Discord call with 12 friends.\n\nIndividual Control: If one friend is too loud or too quiet, you can adjust their volume specifically without affecting anyone else.\nMaster Control: If the entire call is too loud, you can turn down your main volume (the “Master”) to protect your ears."
+  },
+  {
+    "objectID": "dp48.html#plug-your-earphone",
+    "href": "dp48.html#plug-your-earphone",
+    "title": "Midas DP48: Personal Monitoring Guide",
+    "section": "Plug your earphone",
+    "text": "Plug your earphone\nIf you are on the left of the DP48 or Playing Keyboard, You will Use Mix A.  If you are on the right or Playing Piano, you will use Mix B. Plug your earphone into the correct side to start adjusting your mix.\n\n\n\nDP48 Back\n\n\n\nIf you are using Mix A, plug your earphone into the Circle labeled 2 headphone jack.\nIf you are using Mix B, plug into the Circle labeled 1 headphone jack."
+  },
+  {
+    "objectID": "dp48.html#hardware-layout",
+    "href": "dp48.html#hardware-layout",
+    "title": "Midas DP48: Personal Monitoring Guide",
+    "section": "Hardware Layout",
+    "text": "Hardware Layout\nRefer to the diagram below to identify the primary controls.\n\n\n\nDP48 Control Layout\n\n\n\n\n\n\n\n\n\n\nID\nControl Name\nFunction\n\n\n\n\n1\nMaster Volume\nControls the overall level of everything you hear.\n\n\n2\nMy Group Volume\nDedicated knob for your specific instrument.\n\n\n3\nGroup Volume\nAdjusts the level of other instruments/vocals after selecting a group.\n\n\n\n\n\n\n\n\n\nNoteQuick Tip for Mix A vs Mix B\n\n\n\nThe DP48 supports two independent mixes. If you are assigned to Mix A, always use the left-side knobs. If you are Mix B, use the right-side knobs."
+  },
+  {
+    "objectID": "dp48.html#group-assignments",
+    "href": "dp48.html#group-assignments",
+    "title": "Midas DP48: Personal Monitoring Guide",
+    "section": "Group Assignments",
+    "text": "Group Assignments\nUse the buttons (1-12) at the bottom of the unit to select which sound you want to adjust.\n\n\n\nButton\nInstrument / Input\n\n\n\n\n1\nPiano\n\n\n2\nKeyboard\n\n\n3\nUnassigned (N/A)\n\n\n4\nDrums\n\n\n\n\n\n\n5\nAcoustic Guitar\n\n\n6\nElectric Guitar\n\n\n7\nBass Guitar\n\n\n8\nUnassigned (N/A)\n\n\n\n\n\n\n9\nPastor Mic (Headworn & Wireless)\n\n\n10\nLeader Mic (Gray Cap)\n\n\n11\nSingers\n\n\n12\nUnassigned (N/A)"
+  },
+  {
+    "objectID": "dp48.html#how-to-adjust-your-mix",
+    "href": "dp48.html#how-to-adjust-your-mix",
+    "title": "Midas DP48: Personal Monitoring Guide",
+    "section": "How to Adjust Your Mix",
+    "text": "How to Adjust Your Mix\n\n1. Controlling Your Own Instrument\nNo need to select a button first! Simply turn the My Group knob (2) to hear more or less of yourself.\n\n\n2. Controlling Others\nTo adjust a different sound (e.g., the Leader Mic or Drums): 1. Select: Press the numbered button on the bottom corresponding to that instrument. 2. Adjust: Turn the Group Level knob (3) on your side (Left for Mix A, Right for Mix B). 3. Deselect: Press the numbered button again when finished."
+  },
+  {
+    "objectID": "dp48.html#practical-examples",
+    "href": "dp48.html#practical-examples",
+    "title": "Midas DP48: Personal Monitoring Guide",
+    "section": "Practical Examples",
+    "text": "Practical Examples\n\nScenario: You are Keyboard (Mix A)Scenario: You are Piano (Mix B)\n\n\n\nTo hear more of yourself: Turn the left “My Group” knob clockwise.\nTo hear more Acoustic Guitar: Press button [5], then turn the left “Group Level” knob clockwise.\nTo hear less of the Leader: Press button [9], then turn the left “Group Level” knob counter-clockwise.\n\n\n\n\nTo hear more of yourself: Turn the right “My Group” knob clockwise.\nTo hear more Drums: Press button [4], then turn the right “Group Level” knob clockwise.\nTo hear less of the Singers: Press button [10], then turn the right “Group Level” knob counter-clockwise."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Audio Notes",
+    "section": "",
+    "text": "Topic\nNotes (read / print)\nSlides (present)\n\n\n\n\nPA signal flow\npa-system.html\npa-system-slides.html\n\n\nMidas DP48\ndp48.html\nN/A\n\n\n\nThe notes page includes an Other formats link to the slideshow (built-in when you use multi-format)."
+  },
+  {
+    "objectID": "index.html#presentations",
+    "href": "index.html#presentations",
+    "title": "Audio Notes",
+    "section": "",
+    "text": "Topic\nNotes (read / print)\nSlides (present)\n\n\n\n\nPA signal flow\npa-system.html\npa-system-slides.html\n\n\nMidas DP48\ndp48.html\nN/A\n\n\n\nThe notes page includes an Other formats link to the slideshow (built-in when you use multi-format)."
+  }
+]
